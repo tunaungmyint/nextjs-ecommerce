@@ -27,8 +27,8 @@ export default function Layout({ title, children }) {
           </nav>
         </header>
         <main className="container m-auto mt-4 px-4">{children}</main>
-        <footer className="flex justify-center items-center shadow-inner">
-          <p>Copyright: {new Date().getFullYear()} 99LoveStore</p>
+        <footer className="flex justify-center items-center shadow-inner p-2">
+          <p>Copyright: {new Date().getFullYear()} by 99LoveStore</p>
         </footer>
       </div>
     </>
